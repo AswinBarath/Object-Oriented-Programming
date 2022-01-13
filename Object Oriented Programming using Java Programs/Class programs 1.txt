@@ -1,0 +1,146 @@
+Day-1  Java Lab Exercises
+
+1.	Write a Java application to generate the following output.
+	Hello World
+	Hello Everyone
+	Also display your address.
+class First
+{
+ public static void main(String args[])
+  {
+    System.out.println("Hello World");
+    System.out.println("Hello Everyone");
+    System.out.println("Address:");
+    System.out.println("Mallesh Patil,Bagalkot,Karnataka");
+  }
+}    
+
+2.	Write a program that prints “Java” 4 times.
+class Second
+{
+  public static void main(String args[])
+   {
+      System.out.println("java");
+
+      System.out.println("java");
+
+      System.out.println("java");
+
+      System.out.println("java");
+
+   }
+
+
+}
+
+3.	Write a Java program to convert meters to kilometers and display the output in kilometers.
+class Third
+{
+  public static void main(String args[])
+  {
+    int i=2000;
+    System.out.println("the distance is= "+i+" meters");
+    int km=i/1000;
+    System.out.println("the distance in kilometer is= "+km);
+ 
+  }
+
+}
+
+4.	Write an application that will have 3 integer variables with values assigned and prints their sum, product, difference and quotient (division).
+class Fourth
+{
+ public static void main(String argv[])
+  {
+    int a=10,b=5,c;
+    System.out.println("values of the variables are a=10, b=5");
+    c=a+b;
+    System.out.println("Sum= "+c);
+    c=a-b;
+    System.out.println("Difference= "+c);
+    c=a*b;
+    System.out.println("Product= "+c);
+    c=a/b;
+    System.out.println("Quotient= "+c);   
+
+  }
+
+}
+5.	Write an application that displays a box, an oval, an arrow and a diamond using asterisks (*), as follows:
+ class Fifth
+{
+  public static void main(String argv[])
+  { 
+    System.out.println(" *******      ***           *            *     ");  
+    System.out.println(" *     *     *   *         ***          * *    ");
+    System.out.println(" *     *    *     *       *****        *   *   ");
+    System.out.println(" *     *    *     *         *         *     *  ");
+    System.out.println(" *     *    *     *         *        *       * ");
+    System.out.println(" *     *    *     *         *         *     *  ");
+    System.out.println(" *     *     *   *          *          *   *   ");
+    System.out.println(" *     *      ***           *           * *    ");
+    System.out.println(" *******                    *            *     ");
+    
+  }
+}
+
+
+6.	Write a program to print the largest of two numbers.
+class Sixth
+{
+ public static void main(String args[])
+  { 
+    int a=10,b=9;
+    System.out.println("values of the variables are a=10, b=9");
+    if(a>b)
+       System.out.println("greater value is="+a);
+    else
+       System.out.println("greater value is="+b);
+  }
+}
+
+7.	Write a program to read the price of an item in decimal form (like 15.95) and print the output in paise ( like 1595) .
+class Seventh
+{ 
+  public static void main(String argv[])
+  {
+   float j=15.95f;
+   System.out.println("Price of an item in paisa="+j);
+   float i=j*100;
+   System.out.println("Price of an item in rupees="+i);
+   
+   }
+
+
+}
+
+
+8.	Write an application that holds the radius of a circle as an integer and prints the circle's diameter, circumference and area using the floating-point value 3.14159 for p Use the following formulas (r is the radius):
+  class Nine
+{
+ public static void main(String argv[])
+  { 
+    int r=5,d;
+    float PI=3.14159f,circum,area;
+    d=2*r;
+    circum=2*PI*r;
+    area=PI*r*r;
+    System.out.println("given radius= "+r);
+    System.out.println("calculated diameter= "+d);
+    System.out.println("calculated circumference= "+circum);
+    System.out.println("calculated area= "+area);
+    
+   }
+}
+
+9.	Using only the programming techniques you learned in this chapter, write an application that calculates the squares and cubes of the numbers from 0 to 10 and prints the resulting values in table format, as shown below.
+ class Ten
+{
+  public static void main(String argv[])
+  { 
+       System.out.println("number"+"\t"+"square"+"\t"+"cube");
+       for(int i=0;i<=10;i++)
+       System.out.println(i+"\t"+i*i+"\t"+i*i*i);
+   }
+}
+
