@@ -2,6 +2,27 @@
 
 OOP: A Theoretical Repobook for Understanding core concepts &amp; Interview Preparation
 
+---
+
+## Java ☕️
+
+- Java is one of the most popular programming languages out there.
+- Released in 1995 and still widely used today, Java has many applications, including software development, mobile applications, and large systems development.
+- Knowing Java opens a lot of possibilities for you as a developer.
+
+### Why we love it:
+
+- Versatility
+- Object-oriented programming
+- Great place to start
+- Excellent online documentation
+
+### Why Learn Java?
+
+Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. As of 2019, 88% market share of all smartphones run on Android, the mobile operating system written in Java. Knowing Java opens a great deal of doors for you as a developer.
+
+---
+
 ## Tutorials
 
 ### Object Oriented Programming in Java
